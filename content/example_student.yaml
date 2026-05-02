@@ -6,24 +6,17 @@
 # information, and update portfolio_config.yaml to point to it.
 # ============================================================
 
-name: "Zeke the Wonder Dog"
-tagline: "Aspiring Data Scientist | MSU Mascot | Good Boy"
+name: "Taarini Ajit Negi"
+tagline: "Data Science | Sales Analytics | Consulting "
 
 about: |
-  I'm a red English lab and one of Michigan State's beloved mascots, but
-  data science is my true calling. When I'm not leading the Spartans onto
-  the field, I'm wrangling datasets and building predictive models —
-  mostly with my nose, occasionally with my paws.  
-
-  My projects focus on turning complex data into clear insights that
-  *any human (or dog) can act on*. I believe the best analysis is one
-  that fits on a single slide and can be explained to someone who just
-  woke up from a nap in the sun. Go Green.
-
-  _This example portfolio was inspired by Zeke IV, who passed in March of 2026.
-  He played the role of Zeke the Wonder Dog for a decade._
+  I'm Taarini Ajit Negi a data science senior at Michigan State University. I am passionate about the applications of machine learning and AI in the 
+  business industry particularly sales and marketing. I aspire to run my own data mining company someday. 
+  
+  Due to my strong interest in communication and experience with it in consulting I am deeply interested in roles where I can use complex data science methods
+  to consult businesses in different industries.
 
 # Contact information — remove any fields you prefer not to share
-email: "zeke@msu.edu"
-linkedin: "https://www.linkedin.com/in/zeke-the-wonder-dog"
-github: "https://github.com/zeke-wonder-dog"
+email: "negitaar@msu.edu"
+linkedin: "https://www.linkedin.com/in/taarini-ajit-negi/"
+github: "https://github.com/Negitaar"

@@ -1,0 +1,47 @@
+# ============================================================
+# content/projects/example_project_2.yaml
+# ============================================================
+# Example project: Crowd Cheer Analysis at Spartan Football Games
+# Copy this file to create your own project entries.
+# ============================================================
+
+title: "SQL Revenue Analysis with the Sakila Database"
+
+short_summary: >
+  Analyzed rental, customer, film, category, and payment data from the
+  Sakila database to identify top-performing film categories, high-value
+  customers, and revenue patterns for a video rental business.
+
+tech_stack:
+  - SQL
+  - MySQL
+  - Python
+  - pandas
+  - SQLAlchemy
+  - Jupyter Notebooks
+  - Docker
+
+problem_statement: >
+  A video rental store manager needs to understand which film categories
+  generate the most revenue and rental activity, as well as which customers
+  contribute the most value. This analysis uses SQL to turn transactional
+  rental and payment data into business insights that can support inventory,
+  marketing, and customer engagement decisions.
+
+approach: >
+  Connected to a Dockerized MySQL Sakila database from a Jupyter Notebook
+  using SQLAlchemy. Wrote SQL queries using joins, aggregation, HAVING
+  clauses, common table expressions, and window functions to analyze
+  revenue, rentals, category performance, and customer activity. Validated
+  results with row-count checks, grouped summaries, and sanity checks.
+
+results_impact: >
+  Produced a manager-style report ranking film categories by total revenue,
+  total rentals, average revenue per rental, percent of total revenue, and
+  revenue rank. The project demonstrates the ability to translate relational
+  database tables into actionable business insights for operations and
+  marketing decisions.
+
+repo_url: "https://github.com/Negitaar/cmse492-hw02-negitaar"
+notebook_url: "https://github.com/Negitaar/cmse492-hw02-negitaar/blob/main/docker-compose.yml"
+image_path: "img/sql_sakila.png"

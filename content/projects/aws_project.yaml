@@ -1,0 +1,38 @@
+title: "AWS Cloud Data Pipeline & Complaint Resolution Prediction"
+
+short_summary: >
+  Built an end-to-end cloud-based data pipeline on AWS to analyze NYC 311 service request data and predict complaint resolution speed.
+  Leveraged S3 for data storage, Athena for SQL-based querying, and SageMaker for machine learning, enabling scalable data processing
+  and model development in a cloud environment.
+
+tech_stack:
+  - AWS S3
+  - AWS Athena
+  - AWS SageMaker
+  - SQL
+  - Python
+  - pandas
+  - scikit-learn
+  - Jupyter Notebooks
+
+problem_statement: >
+  Large-scale public service datasets, such as NYC 311 complaints, are difficult to analyze using local tools due to their size and complexity.
+  There was a need for a scalable cloud-based workflow to store, query, and model the data efficiently, while also generating insights into
+  factors influencing complaint resolution times.
+
+approach: >
+  Designed a structured data pipeline by uploading raw datasets to AWS S3 and organizing them into logical prefixes for reproducibility.
+  Created external tables in Athena to query the data using SQL and engineered features for modeling.
+  Generated a modeling dataset and exported it back to S3, then loaded it into SageMaker for machine learning.
+  Built and evaluated a classification model to predict whether complaints would be resolved within three days, and compared local sklearn
+  workflows with SageMaker built-in algorithms.
+
+results_impact: >
+  Successfully implemented a scalable cloud workflow that integrates data engineering, SQL analytics, and machine learning.
+  The model provides a baseline prediction of complaint resolution speed, demonstrating the ability to derive actionable insights
+  from large public datasets. This project highlights proficiency in building reproducible cloud-based data pipelines and applying
+  machine learning in a real-world context.
+
+repo_url: "https://github.com/Negitaar/aws-cloud-computing-project"
+notebook_url: "https://github.com/Negitaar/aws-cloud-computing-project/blob/main/notebooks/day27_inclass_assignment-STUDENT (1).ipynb"
+image_path: "img/aws_image.jpg"
