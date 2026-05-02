@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taarini Ajit Negi | Data Science Portfolio</title>
+
+  <!-- Base styles always loaded -->
+  <link rel="stylesheet" href="css/base.css" />
+
+  <!-- Theme stylesheet — controlled by `theme` in portfolio_config.yaml -->
+  <link rel="stylesheet" href="css/themes/light-green.css" />
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-name">Taarini Ajit Negi</div>
+      <div class="header-tagline">Data Science | Sales Analytics | Consulting </div>
+    </div>
+
+    <!-- Navigation bar -->
+    <nav class="site-nav">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- ===== Main content (filled in by child templates) ===== -->
+  <main class="site-main">
+    
+
+<!-- ===== About Section ===== -->
+<section id="about" class="section about-section">
+  <h2>About Me</h2>
+  <div class="about-text">
+    <p>I'm Taarini Ajit Negi a data science senior at Michigan State University. I am passionate about the applications of machine learning and AI in the 
+business industry particularly sales and marketing. I aspire to run my own data mining company someday. </p>
+<p>Due to my strong interest in communication and experience with it in consulting I am deeply interested in roles where I can use complex data science methods
+to consult businesses in different industries.</p>
+  </div>
+</section>
+
+
+<!-- ===== Projects Section ===== -->
+<section id="projects" class="section projects-section">
+  <h2>Projects</h2>
+
+  <div class="project-grid">
+    
+    <article class="project-card">
+      <div class="project-image-wrapper">
+        <img
+          src="img/billionaires_bycountry.png"
+          alt="Thumbnail for Interactive Data Visualization with Plotly"
+          class="project-image"
+        />
+      </div>
+
+      <div class="project-body">
+        <h3 class="project-title">Interactive Data Visualization with Plotly</h3>
+
+        <p class="project-summary">
+          Developed an interactive data visualization project using Plotly to transform complex datasets into intuitive and dynamic visual insights. Designed user-friendly dashboards that allow users to explore patterns, trends, and relationships in real time.
+
+        </p>
+
+        <div class="tech-stack">
+          
+          <span class="tech-badge">Python</span>
+          
+          <span class="tech-badge">Plotly</span>
+          
+          <span class="tech-badge">pandas</span>
+          
+          <span class="tech-badge">Jupyter Notebooks</span>
+          
+        </div>
+
+        <details class="project-details">
+          <summary>More details</summary>
+
+          <div class="detail-block">
+            <h4>Problem</h4>
+            <p>Traditional static visualizations often fail to effectively communicate complex patterns in data, especially to non-technical audiences. There was a need for an interactive solution that allows users to explore data dynamically and uncover insights without requiring advanced technical knowledge.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Approach</h4>
+            <p>Cleaned and processed the dataset using pandas, followed by designing multiple interactive visualizations using Plotly. Implemented features such as hover interactions, filtering, and dynamic views to enhance user engagement. Structured the project as a reproducible Jupyter Notebook and prepared it for public sharing via GitHub.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Results &amp; Impact</h4>
+            <p>Successfully created an interactive visualization tool that makes data exploration more accessible and engaging. Users can identify trends and relationships more efficiently compared to static charts. This project demonstrates the ability to communicate complex data insights through intuitive and visually appealing interfaces.
+</p>
+          </div>
+        </details>
+
+        <div class="project-links">
+          
+          <a href="https://github.com/Negitaar/cmse492-hw01-negitaar" target="_blank" rel="noopener" class="btn btn-repo">
+            View Repo
+          </a>
+          
+
+          
+          <a href="https://github.com/Negitaar/cmse492-hw01-negitaar/blob/main/notebooks/CMSE_402HonorsProject.ipynb" target="_blank" rel="noopener" class="btn btn-notebook">
+            View Notebook
+          </a>
+          
+        </div>
+      </div>
+    </article>
+    
+    <article class="project-card">
+      <div class="project-image-wrapper">
+        <img
+          src="img/sql_sakila.png"
+          alt="Thumbnail for SQL Revenue Analysis with the Sakila Database"
+          class="project-image"
+        />
+      </div>
+
+      <div class="project-body">
+        <h3 class="project-title">SQL Revenue Analysis with the Sakila Database</h3>
+
+        <p class="project-summary">
+          Analyzed rental, customer, film, category, and payment data from the Sakila database to identify top-performing film categories, high-value customers, and revenue patterns for a video rental business.
+
+        </p>
+
+        <div class="tech-stack">
+          
+          <span class="tech-badge">SQL</span>
+          
+          <span class="tech-badge">MySQL</span>
+          
+          <span class="tech-badge">Python</span>
+          
+          <span class="tech-badge">pandas</span>
+          
+          <span class="tech-badge">SQLAlchemy</span>
+          
+          <span class="tech-badge">Jupyter Notebooks</span>
+          
+          <span class="tech-badge">Docker</span>
+          
+        </div>
+
+        <details class="project-details">
+          <summary>More details</summary>
+
+          <div class="detail-block">
+            <h4>Problem</h4>
+            <p>A video rental store manager needs to understand which film categories generate the most revenue and rental activity, as well as which customers contribute the most value. This analysis uses SQL to turn transactional rental and payment data into business insights that can support inventory, marketing, and customer engagement decisions.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Approach</h4>
+            <p>Connected to a Dockerized MySQL Sakila database from a Jupyter Notebook using SQLAlchemy. Wrote SQL queries using joins, aggregation, HAVING clauses, common table expressions, and window functions to analyze revenue, rentals, category performance, and customer activity. Validated results with row-count checks, grouped summaries, and sanity checks.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Results &amp; Impact</h4>
+            <p>Produced a manager-style report ranking film categories by total revenue, total rentals, average revenue per rental, percent of total revenue, and revenue rank. The project demonstrates the ability to translate relational database tables into actionable business insights for operations and marketing decisions.
+</p>
+          </div>
+        </details>
+
+        <div class="project-links">
+          
+          <a href="https://github.com/Negitaar/cmse492-hw02-negitaar" target="_blank" rel="noopener" class="btn btn-repo">
+            View Repo
+          </a>
+          
+
+          
+          <a href="https://github.com/Negitaar/cmse492-hw02-negitaar/blob/main/docker-compose.yml" target="_blank" rel="noopener" class="btn btn-notebook">
+            View Notebook
+          </a>
+          
+        </div>
+      </div>
+    </article>
+    
+    <article class="project-card">
+      <div class="project-image-wrapper">
+        <img
+          src="img/aws_image.jpg"
+          alt="Thumbnail for AWS Cloud Data Pipeline &amp; Complaint Resolution Prediction"
+          class="project-image"
+        />
+      </div>
+
+      <div class="project-body">
+        <h3 class="project-title">AWS Cloud Data Pipeline &amp; Complaint Resolution Prediction</h3>
+
+        <p class="project-summary">
+          Built an end-to-end cloud-based data pipeline on AWS to analyze NYC 311 service request data and predict complaint resolution speed. Leveraged S3 for data storage, Athena for SQL-based querying, and SageMaker for machine learning, enabling scalable data processing and model development in a cloud environment.
+
+        </p>
+
+        <div class="tech-stack">
+          
+          <span class="tech-badge">AWS S3</span>
+          
+          <span class="tech-badge">AWS Athena</span>
+          
+          <span class="tech-badge">AWS SageMaker</span>
+          
+          <span class="tech-badge">SQL</span>
+          
+          <span class="tech-badge">Python</span>
+          
+          <span class="tech-badge">pandas</span>
+          
+          <span class="tech-badge">scikit-learn</span>
+          
+          <span class="tech-badge">Jupyter Notebooks</span>
+          
+        </div>
+
+        <details class="project-details">
+          <summary>More details</summary>
+
+          <div class="detail-block">
+            <h4>Problem</h4>
+            <p>Large-scale public service datasets, such as NYC 311 complaints, are difficult to analyze using local tools due to their size and complexity. There was a need for a scalable cloud-based workflow to store, query, and model the data efficiently, while also generating insights into factors influencing complaint resolution times.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Approach</h4>
+            <p>Designed a structured data pipeline by uploading raw datasets to AWS S3 and organizing them into logical prefixes for reproducibility. Created external tables in Athena to query the data using SQL and engineered features for modeling. Generated a modeling dataset and exported it back to S3, then loaded it into SageMaker for machine learning. Built and evaluated a classification model to predict whether complaints would be resolved within three days, and compared local sklearn workflows with SageMaker built-in algorithms.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Results &amp; Impact</h4>
+            <p>Successfully implemented a scalable cloud workflow that integrates data engineering, SQL analytics, and machine learning. The model provides a baseline prediction of complaint resolution speed, demonstrating the ability to derive actionable insights from large public datasets. This project highlights proficiency in building reproducible cloud-based data pipelines and applying machine learning in a real-world context.
+</p>
+          </div>
+        </details>
+
+        <div class="project-links">
+          
+          <a href="https://github.com/Negitaar/aws-cloud-computing-project" target="_blank" rel="noopener" class="btn btn-repo">
+            View Repo
+          </a>
+          
+
+          
+          <a href="https://github.com/Negitaar/aws-cloud-computing-project/blob/main/notebooks/day27_inclass_assignment-STUDENT (1).ipynb" target="_blank" rel="noopener" class="btn btn-notebook">
+            View Notebook
+          </a>
+          
+        </div>
+      </div>
+    </article>
+    
+  </div>
+</section>
+
+
+<!-- ===== Work Experience Section ===== -->
+<section id="experience" class="section experience-section">
+  <h2>Work Experience</h2>
+
+  <div class="experience-list">
+    
+    <article class="experience-item">
+      <h3>First Year Sales and Leadership Intern — Southwestern Advantage, Nashville, TN</h3>
+      <p class="experience-duration">May 2025 – Present</p>
+
+      <ul>
+        
+        <li>Recruited as an independent contractor in direct sales of educational products</li>
+        
+        <li>Managed ordering, inventory, sales, accounting, scheduling, and performance analytics</li>
+        
+        <li>Relocated to West Virginia and worked 75+ hrs/week; achieved Gold Award with $8000+ in sales in 13 weeks</li>
+        
+        <li>Engaged with 3,000+ families and ranked in top 10% company-wide in first-year sales</li>
+        
+      </ul>
+    </article>
+    
+    <article class="experience-item">
+      <h3>Student Clerical Assistant — Office of the Provost AACC, Michigan State University</h3>
+      <p class="experience-duration">Sept 2024 – Present</p>
+
+      <ul>
+        
+        <li>Built databases on federal policies and applied logistic regression in Python for insights</li>
+        
+        <li>Rebuilt compliance webpages using Sitecore</li>
+        
+        <li>Performed NLP analysis on 400+ general education comments</li>
+        
+      </ul>
+    </article>
+    
+    <article class="experience-item">
+      <h3>Research Apprentice — MSU JimLab, Department of Epidemiology and Biostatistics</h3>
+      <p class="experience-duration">Sept 2023 – May 2025</p>
+
+      <ul>
+        
+        <li>Analyzed health data on Type 1 diabetes and depression using epidemiological methods</li>
+        
+        <li>Used Stata to identify correlations across demographic subgroups</li>
+        
+        <li>Applied Bayesian modeling in R for statistical analysis</li>
+        
+        <li>Contributed to ongoing research toward publication and survival analysis work</li>
+        
+      </ul>
+    </article>
+    
+    <article class="experience-item">
+      <h3>Data Science Intern — Nullclass Edtech Pvt Ltd (Remote, India)</h3>
+      <p class="experience-duration">June 2024 – Aug 2024</p>
+
+      <ul>
+        
+        <li>Built emotion detection system using OpenCV in Python</li>
+        
+        <li>Developed traffic detection model with 82% accuracy using TensorFlow</li>
+        
+        <li>Created predictive sign language model using image and speech data</li>
+        
+      </ul>
+    </article>
+    
+    <article class="experience-item">
+      <h3>Builder (Nights &amp; Weekends Season 5) — Buildspace, San Francisco, CA</h3>
+      <p class="experience-duration">June 2024 – July 2024</p>
+
+      <ul>
+        
+        <li>Built AI platform for personalized financial recommendations for students</li>
+        
+        <li>Developed full-stack system using HTML, CSS, JavaScript, Node.js, and SQL</li>
+        
+        <li>Deployed platform on AWS and pitched to 100+ investors</li>
+        
+        <li>Completed program in top 7.4% of accepted participants</li>
+        
+      </ul>
+    </article>
+    
+  </div>
+</section>
+
+
+<!-- ===== Contact Section ===== -->
+<section id="contact" class="section contact-section">
+  <h2>Contact</h2>
+
+  <ul class="contact-list">
+    
+    <li>
+      <span class="contact-label">Email:</span>
+      <a href="mailto:negitaar@msu.edu">negitaar@msu.edu</a>
+    </li>
+    
+
+    
+    <li>
+      <span class="contact-label">LinkedIn:</span>
+      <a href="https://www.linkedin.com/in/taarini-ajit-negi/" target="_blank" rel="noopener">
+        https://www.linkedin.com/in/taarini-ajit-negi/
+      </a>
+    </li>
+    
+
+    
+    <li>
+      <span class="contact-label">GitHub:</span>
+      <a href="https://github.com/Negitaar" target="_blank" rel="noopener">
+        https://github.com/Negitaar
+      </a>
+    </li>
+    
+  </ul>
+</section>
+
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <p>Built with the <a href="https://github.com/devinsilvia/professional_portfolio_template">Data Science Portfolio Template</a> &mdash; powered by Python &amp; Jinja2.</p>
+  </footer>
+
+</body>
+</html>

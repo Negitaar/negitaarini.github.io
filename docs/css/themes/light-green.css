@@ -1,0 +1,43 @@
+/* Light Green Theme */
+
+body {
+  background-color: #f4fff7;
+  color: #1b3a2f;
+}
+
+.site-header {
+  background-color: #d9fbe5;
+  border-bottom: 2px solid #a8e6c1;
+}
+
+.site-nav a {
+  color: #1b3a2f;
+}
+
+.site-nav a:hover {
+  color: #2ecc71;
+}
+
+.project-card {
+  background-color: #ffffff;
+  border: 1px solid #c8f7dc;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.tech-badge {
+  background-color: #eafff1;
+  color: #2ecc71;
+}
+
+.btn {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #27ae60;
+}
+
+.site-footer {
+  background-color: #d9fbe5;
+}
