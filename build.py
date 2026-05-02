@@ -115,6 +115,7 @@ def build() -> None:
         theme=theme,
         student=student,
         projects=projects,
+        experience=student.get("experience", []),
     )
 
     output_path = DOCS_DIR / "index.html"
