@@ -18,8 +18,6 @@
   <div class="project-grid">
     {% for project in projects %}
     <article class="project-card">
-
-      <!-- Project Image -->
       <div class="project-image-wrapper">
         <img
           src="{{ project.image_path }}"
@@ -29,23 +27,18 @@
       </div>
 
       <div class="project-body">
-        <h3 class="project-title">
-          {{ project.title }}
-        </h3>
+        <h3 class="project-title">{{ project.title }}</h3>
 
-        <!-- Short Summary -->
         <p class="project-summary">
           {{ project.short_summary }}
         </p>
 
-        <!-- Tech Stack -->
         <div class="tech-stack">
           {% for tech in project.tech_stack %}
           <span class="tech-badge">{{ tech }}</span>
           {% endfor %}
         </div>
 
-        <!-- Collapsible Details -->
         <details class="project-details">
           <summary>More details</summary>
 
@@ -65,7 +58,6 @@
           </div>
         </details>
 
-        <!-- Links -->
         <div class="project-links">
           {% if project.repo_url %}
           <a href="{{ project.repo_url }}" target="_blank" rel="noopener" class="btn btn-repo">
@@ -79,8 +71,28 @@
           </a>
           {% endif %}
         </div>
-
       </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+
+
+<!-- ===== Work Experience Section ===== -->
+<section id="experience" class="section experience-section">
+  <h2>Work Experience</h2>
+
+  <div class="experience-list">
+    {% for job in experience %}
+    <article class="experience-item">
+      <h3>{{ job.role }} — {{ job.company }}</h3>
+      <p class="experience-duration">{{ job.duration }}</p>
+
+      <ul>
+        {% for point in job.description %}
+        <li>{{ point }}</li>
+        {% endfor %}
+      </ul>
     </article>
     {% endfor %}
   </div>

@@ -16,6 +16,51 @@ about: |
   Due to my strong interest in communication and experience with it in consulting I am deeply interested in roles where I can use complex data science methods
   to consult businesses in different industries.
 
+experience:
+  - role: "First Year Sales and Leadership Intern"
+    company: "Southwestern Advantage, Nashville, TN"
+    duration: "May 2025 – Present"
+    description:
+      - Recruited as an independent contractor in direct sales of educational products
+      - Managed ordering, inventory, sales, accounting, scheduling, and performance analytics
+      - Relocated to West Virginia and worked 75+ hrs/week; achieved Gold Award with $8000+ in sales in 13 weeks
+      - Engaged with 3,000+ families and ranked in top 10% company-wide in first-year sales
+
+  - role: "Student Clerical Assistant"
+    company: "Office of the Provost AACC, Michigan State University"
+    duration: "Sept 2024 – Present"
+    description:
+      - Built databases on federal policies and applied logistic regression in Python for insights
+      - Rebuilt compliance webpages using Sitecore
+      - Performed NLP analysis on 400+ general education comments
+
+  - role: "Research Apprentice"
+    company: "MSU JimLab, Department of Epidemiology and Biostatistics"
+    duration: "Sept 2023 – May 2025"
+    description:
+      - Analyzed health data on Type 1 diabetes and depression using epidemiological methods
+      - Used Stata to identify correlations across demographic subgroups
+      - Applied Bayesian modeling in R for statistical analysis
+      - Contributed to ongoing research toward publication and survival analysis work
+
+  - role: "Data Science Intern"
+    company: "Nullclass Edtech Pvt Ltd (Remote, India)"
+    duration: "June 2024 – Aug 2024"
+    description:
+      - Built emotion detection system using OpenCV in Python
+      - Developed traffic detection model with 82% accuracy using TensorFlow
+      - Created predictive sign language model using image and speech data
+
+  - role: "Builder (Nights & Weekends Season 5)"
+    company: "Buildspace, San Francisco, CA"
+    duration: "June 2024 – July 2024"
+    description:
+      - Built AI platform for personalized financial recommendations for students
+      - Developed full-stack system using HTML, CSS, JavaScript, Node.js, and SQL
+      - Deployed platform on AWS and pitched to 100+ investors
+      - Completed program in top 7.4% of accepted participants
+      
+
 # Contact information — remove any fields you prefer not to share
 email: "negitaar@msu.edu"
 linkedin: "https://www.linkedin.com/in/taarini-ajit-negi/"
