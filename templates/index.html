@@ -2,13 +2,16 @@
 
 {% block content %}
 
-<!-- ===== About section ===== -->
+<!-- ===== About Section ===== -->
 <section id="about" class="section about-section">
   <h2>About Me</h2>
-  <div class="about-text">{{ student.about | safe }}</div>
+  <div class="about-text">
+    {{ student.about | safe }}
+  </div>
 </section>
 
-<!-- ===== Projects section ===== -->
+
+<!-- ===== Projects Section ===== -->
 <section id="projects" class="section projects-section">
   <h2>Projects</h2>
 
@@ -16,7 +19,7 @@
     {% for project in projects %}
     <article class="project-card">
 
-      <!-- Project thumbnail image -->
+      <!-- Project Image -->
       <div class="project-image-wrapper">
         <img
           src="{{ project.image_path }}"
@@ -26,19 +29,23 @@
       </div>
 
       <div class="project-body">
-        <h3 class="project-title">{{ project.title }}</h3>
+        <h3 class="project-title">
+          {{ project.title }}
+        </h3>
 
-        <!-- Short summary written for a non-expert audience -->
-        <p class="project-summary">{{ project.short_summary }}</p>
+        <!-- Short Summary -->
+        <p class="project-summary">
+          {{ project.short_summary }}
+        </p>
 
-        <!-- Tech stack as pill badges -->
+        <!-- Tech Stack -->
         <div class="tech-stack">
           {% for tech in project.tech_stack %}
           <span class="tech-badge">{{ tech }}</span>
           {% endfor %}
         </div>
 
-        <!-- Collapsible details (problem / approach / results) -->
+        <!-- Collapsible Details -->
         <details class="project-details">
           <summary>More details</summary>
 
@@ -58,29 +65,32 @@
           </div>
         </details>
 
-        <!-- Links to the GitHub repo and notebook -->
+        <!-- Links -->
         <div class="project-links">
           {% if project.repo_url %}
           <a href="{{ project.repo_url }}" target="_blank" rel="noopener" class="btn btn-repo">
             View Repo
           </a>
           {% endif %}
+
           {% if project.notebook_url %}
           <a href="{{ project.notebook_url }}" target="_blank" rel="noopener" class="btn btn-notebook">
             View Notebook
           </a>
           {% endif %}
         </div>
-      </div>
 
+      </div>
     </article>
     {% endfor %}
   </div>
 </section>
 
-<!-- ===== Contact section ===== -->
+
+<!-- ===== Contact Section ===== -->
 <section id="contact" class="section contact-section">
   <h2>Contact</h2>
+
   <ul class="contact-list">
     {% if student.email %}
     <li>
@@ -88,16 +98,22 @@
       <a href="mailto:{{ student.email }}">{{ student.email }}</a>
     </li>
     {% endif %}
+
     {% if student.linkedin %}
     <li>
       <span class="contact-label">LinkedIn:</span>
-      <a href="{{ student.linkedin }}" target="_blank" rel="noopener">{{ student.linkedin }}</a>
+      <a href="{{ student.linkedin }}" target="_blank" rel="noopener">
+        {{ student.linkedin }}
+      </a>
     </li>
     {% endif %}
+
     {% if student.github %}
     <li>
       <span class="contact-label">GitHub:</span>
-      <a href="{{ student.github }}" target="_blank" rel="noopener">{{ student.github }}</a>
+      <a href="{{ student.github }}" target="_blank" rel="noopener">
+        {{ student.github }}
+      </a>
     </li>
     {% endif %}
   </ul>
